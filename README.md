@@ -8,24 +8,24 @@ No sistema criado ocorrem interações em escala molecular descritas através de
 Através de simulações da dinâmica molecular desses sistemas e com auxilio de métodos teóricos pode-se obter a descrição das interações intermoleculares e a definição dos núcleos atômicos que interagem sob um potencial.
 
 As condições iniciais da simulação serão geradas da seguinte forma: 
-*Criação de um modelo inicial com a geometria aproximada do sistema para os elementos envolvidos dentro de uma caixa de simulação;
-*Execução os parâmetros iniciais da simulação, deve-se anexar ao sistema um fator de transferência de energia do/para reservatório de modo a se alcançar o estado de equilíbrio o mais rápido possível;
-*Estabelecer ao programa configuração inicial do sistema antes da simulação;
-*Localização das paredes da caixa de simulação (por eixo cartesiano);
-*Definir a temperatura de equilíbrio do sistema.
+* Criação de um modelo inicial com a geometria aproximada do sistema para os elementos envolvidos dentro de uma caixa de simulação;
+* Execução os parâmetros iniciais da simulação, deve-se anexar ao sistema um fator de transferência de energia do/para reservatório de modo a se alcançar o estado de equilíbrio o mais rápido possível;
+* Estabelecer ao programa configuração inicial do sistema antes da simulação;
+* Localização das paredes da caixa de simulação (por eixo cartesiano);
+* Definir a temperatura de equilíbrio do sistema.
 
 As simulações são efetuadas e as trajetórias definidas pela integração das equações de **Newton via Runge-Kutta** 
 Há uma variação de energia durante o tempo de simulação. 
 
-Para iniciar a simulação nessa parte utilizou-se os dados do **Cambridge Cluster Database**.
-**OBS**. 
+Para iniciar a simulação nessa parte utilizou-se os dados do **Cambridge** **Cluster** **Database**.
+**obs**
 *Cambridge Cluster Database é um banco de dados com N-posições e  energias de clusters diversos com base em experimentos teóricos. 
 
 Também nas condições iniciais, temos os momentos angulares *(px, py , pz)* 
 Os vetores de entrada compostos pelas 6 coordenadas atômicas de posição e momentos *(x, y, z, px, py , pz)*.
 O tempo de análise para as simulações são em pico-segundos, o que facilita a resolução das equações ordinárias.
-**OBS**.
-*Passos de integração menor leva a uma melhor integração, porém demandam tempo computacional maior.* 
+**obs**
+*Passos de integração menor leva a uma melhor integração, porém demandam tempo computacional maior* 
 
 O cálculo da simulação em tempo real se dá através do produto entre o passo e a temperatura final da simulação (TS), em unidades reduzidas. 
 É importantíssimo que haja uma conversão do tempo de simulação para o tempo real, dando origem a um vetor de tempo real (TR) descrito em forma de matrizes facilitando o cálculo teórico.
