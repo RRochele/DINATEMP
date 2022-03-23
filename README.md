@@ -21,7 +21,7 @@ de **Newton via Runge-Kutta**
 Há uma variação de energia durante o tempo de simulação. 
 
 Para iniciar a simulação nessa parte utilizou-se os dados do **Cambridge** **Cluster**  **Database**.
- **OBS:**
+ **OBS**
 *Cambridge Cluster Database é um banco de dados com N-posições e  energias de clusters diversos  com base em experimentos teóricos* . 
 
 Também nas condições iniciais, temos os momentos angulares *(px, py , pz)* 
