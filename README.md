@@ -8,15 +8,16 @@ No sistema criado ocorrem interações em escala molecular descritas através de
 Através de simulações da dinâmica molecular desses sistemas e com auxilio de métodos teóricos pode-se obter a descrição das interações intermoleculares e a definição dos núcleos atômicos que interagem sob um potencial.
 
 As condições iniciais da simulação serão geradas da seguinte forma: 
-* Criação de um modelo inicial com a geometria aproximada do sistema para os elementos envolvidos dentro de uma caixa de simulação;
-* Execução os parâmetros iniciais da simulação, deve-se anexar ao sistema um fator de transferência de energia do/para reservatório de modo a se alcançar o estado de equilíbrio o mais rápido possível;
-* Estabelecer ao programa configuração inicial do sistema antes da simulação;
-* Localização das paredes da caixa de simulação (por eixo cartesiano);
-* Definir a temperatura de equilíbrio do sistema.
-```
+*Criação de um modelo inicial com a geometria aproximada do sistema para os elementos envolvidos dentro de uma caixa de simulação;
+*Execução os parâmetros iniciais da simulação, deve-se anexar ao sistema um fator de transferência de energia do/para reservatório de modo a se alcançar o estado de equilíbrio o mais rápido possível;
+*Estabelecer ao programa configuração inicial do sistema antes da simulação;
+*Localização das paredes da caixa de simulação (por eixo cartesiano);
+*Definir a temperatura de equilíbrio do sistema.
+
 As simulações são efetuadas e as trajetórias definidas pela integração das equações de **Newton via Runge-Kutta** 
 Há uma variação de energia durante o tempo de simulação. 
-````Para iniciar a simulação nessa parte utilizou-se os dados do **Cambridge Cluster Database**.
+
+Para iniciar a simulação nessa parte utilizou-se os dados do **Cambridge Cluster Database**.
 **OBS:** *Cambridge Cluster Database é um banco de dados com N-posições e  energias de clusters diversos com base em experimentos teóricos. 
 
 Também nas condições iniciais, temos os momentos angulares *(px, py , pz)* 
