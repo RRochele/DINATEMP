@@ -22,7 +22,7 @@ Há uma variação de energia durante o tempo de simulação.
 
 Para iniciar a simulação nessa parte utilizou-se os dados do **Cambridge** **Cluster**  **Database**.
 
-```*Cambridge Cluster Database é um banco de dados com N-posições e  energias de clusters diversos  com base em experimentos teóricos* ``` 
+```Cambridge Cluster Database é um banco de dados com N-posições e  energias de clusters diversos  com base em experimentos teóricos ``` 
 
 Também nas condições iniciais, temos os momentos angulares *(px, py , pz)* 
 Os vetores de entrada compostos pelas 6 coordenadas atômicas de posição 
@@ -30,7 +30,7 @@ e momentos *(x, y, z, px, py , pz)*.
 O tempo de análise para as simulações são em pico-segundos, o que facilita a resolução 
 das equações ordinárias.
 
-``` *Passos de integração menores levam a uma melhor integração, porém demandam tempo computacional maior* ``` 
+``` Passos de integração menores levam a uma melhor integração, porém demandam tempo computacional maior ``` 
 
 O cálculo da simulação em tempo real se dá através do produto entre o passo e a temperatura  final da simulação (TS), em unidades reduzidas. 
 É importantíssimo que haja uma conversão do tempo de simulação para o tempo real, dando origem a um vetor de tempo real (TR) descrito em forma de matrizes facilitando o cálculo teórico.
