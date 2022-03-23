@@ -12,7 +12,7 @@ núcleos atômicos que interagem sob um potencial.
 As condições iniciais da simulação serão geradas da seguinte forma: 
 * Criação de um modelo inicial com a geometria aproximada do sistema para os elementos envolvidos dentro de uma caixa de simulação;
 * Execução os parâmetros iniciais da simulação, deve-se anexar ao sistema um fator de transferência de energia do/para reservatório de modo a se alcançar o estado de equilíbrio o mais rápido possível;
-* Estabelecer ao programa configuração inicial do sistema antes da simulação. 
+* Estabelecer ao programa configuração inicial do sistema antes da simulação;
 * Localização das paredes da caixa de simulação (por eixo cartesiano);
 * Definir a temperatura de equilíbrio do sistema.
 
@@ -21,7 +21,6 @@ de **Newton via Runge-Kutta**
 Há uma variação de energia durante o tempo de simulação. 
 
 Para iniciar a simulação nessa parte utilizou-se os dados do **Cambridge** **Cluster**  **Database**.
- **OBS**
 
 ```*Cambridge Cluster Database é um banco de dados com N-posições e  energias de clusters diversos  com base em experimentos teóricos* ``` 
 
@@ -30,7 +29,6 @@ Os vetores de entrada compostos pelas 6 coordenadas atômicas de posição
 e momentos *(x, y, z, px, py , pz)*.
 O tempo de análise para as simulações são em pico-segundos, o que facilita a resolução 
 das equações ordinárias.
-**OBS:**
 
 ``` *Passos de integração menor leva a uma melhor integração, porém demandam tempo computacional maior* ``` 
 
