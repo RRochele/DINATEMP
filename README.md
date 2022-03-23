@@ -36,8 +36,6 @@ O cálculo da simulação em tempo real se dá através do produto entre o passo
 É importantíssimo que haja uma conversão do tempo de simulação para o tempo real, dando origem a um vetor de tempo real (TR) descrito em forma de matrizes facilitando o cálculo teórico.
 
 Por último os gráficos de variação e conservação da energia total do sistema são gerados. 
-
-Para o cálculo da conservação de energia total, é analisada a relação de temperatura com a variação de energia potencial. 
-
-As trajetórias registradas são usadas nos gráficos de movimento (“Filmagem”) e as interações/transformações são visualizadas para a variação de temperatura determinada pelo sistema.
+Para o cálculo da conservação de energia total, é analisada a relação de temperatura com a variação de energia potencial.
+As trajetórias registradas são usadas nos gráficos de movimento *Filmagem* e as **interações/transformações** são visualizadas para a variação de temperatura determinada pelo sistema.
 
