@@ -1,6 +1,6 @@
 ##  DINATEMP
 **Simulação de moléculas de Argônio utilizando scilab em ambiente paralelo**
-~~~scilab
+
 O DINATEMP é um programa criado com linguagem Scilab como ambiente programático e sistema operacional *Linux Debian 8.* 
 
 No sistema criado ocorrem interações em escala molecular descritas através de suas  posições e momentos angulares. 
